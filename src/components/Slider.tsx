@@ -24,20 +24,20 @@ const data = [
 const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  useEffect(() => {
+  /* useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev == data.length - 1 ? 0 : prev + 1));
     }, 4000);
     return () => clearInterval(interval);
-  }, []);
+  }, []); */
 
   return (
-    <div className="flex flex-col h-[calc(100vh-6rem)] md:h-[calc(100vh-9rem)] md:flex-row ">
-      <div className="flex flex-1 items-center justify-center flex-col gap-8 text-red-500 font-bold ">
-        <h1 className="text-5xl text-center uppercase font-bold md:text-6xl lg:text-7xl">
+    <div className="flex flex-col h-[calc(100vh-6rem)] md:h-[calc(100vh-9rem)] lg:flex-row bg-fuchsia-50">
+      <div className="flex flex-1 items-center justify-center flex-col gap-8 text-red-500 font-bold">
+        <h1 className="text-5xl text-center uppercase p-4 font-bold mdÑp-10 md:text-6xl lg:text-7xl">
           {data[currentSlide].title}
         </h1>
-        <button className="bg-red-500 text-white py-4 px-8 ">
+        <button className="bg-red-500 text-white py-4 px-8">
           Ordene ahora
         </button>
       </div>
