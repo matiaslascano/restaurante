@@ -18,15 +18,15 @@ export const featuredProducts: Products = [
     price: 24.9,
     options: [
       {
-        title: "Small",
+        title: "Chica",
         additionalPrice: 0,
       },
       {
-        title: "Medium",
+        title: "Mediana",
         additionalPrice: 4,
       },
       {
-        title: "Large",
+        title: "Grande",
         additionalPrice: 6,
       },
     ],
@@ -332,21 +332,21 @@ export const pizzas: Products = [
 
 export const singleProduct: Product = {
   id: 1,
-  title: "Sicilian",
-  desc: "Ignite your taste buds with a fiery combination of spicy pepperoni, jalapeños, crushed red pepper flakes, and melted mozzarella cheese, delivering a kick with every bite.",
+  title: "Siciliana",
+  desc: "Encienda sus papilas gustativas con una ardiente combinación de pepperoni picante, jalapeños, hojuelas de pimiento rojo triturado y queso mozzarella derretido, ofreciendo una patada con cada bocado.",
   img: "/temporary/p1.png",
   price: 24.9,
   options: [
     {
-      title: "Small",
+      title: "Chica",
       additionalPrice: 0,
     },
     {
-      title: "Medium",
+      title: "Mediana",
       additionalPrice: 4,
     },
     {
-      title: "Large",
+      title: "Grande",
       additionalPrice: 6,
     },
   ],

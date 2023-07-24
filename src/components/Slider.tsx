@@ -37,7 +37,7 @@ const Slider = () => {
         <h1 className="text-5xl text-center uppercase p-4 font-bold mdÑp-10 md:text-6xl lg:text-7xl">
           {data[currentSlide].title}
         </h1>
-        <button className="bg-red-500 text-white py-4 px-8">
+        <button className="bg-red-500 text-white py-4 px-8 mb-4">
           Ordene ahora
         </button>
       </div>

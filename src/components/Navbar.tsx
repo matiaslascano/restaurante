@@ -12,9 +12,9 @@ const Navbar = () => {
       <div className="hidden md:flex gap-4 flex-1">
         <Link href="/">HOME</Link>
         <Link href="/menu">MENU</Link>
-        <Link href="/">CONTACT</Link>
+        <Link href="/">CONTACTO</Link>
       </div>
-      <div className="uppercase text-xl md:font-bold flex-1 md:text-center">
+      <div className="uppercase text-xl md:font-bold flex-1 md:text-center md:text-3xl">
         <Link href="/">Trattoria</Link>
       </div>
       <div className="md:hidden">
@@ -28,7 +28,7 @@ const Navbar = () => {
         {!user ? (
           <Link href="/login">LOGIN</Link>
         ) : (
-          <Link href="/orders">ORDERS</Link>
+          <Link href="/orders">PEDIDOS</Link>
         )}
         <CartIcon />
       </div>
