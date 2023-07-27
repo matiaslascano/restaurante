@@ -1,5 +1,6 @@
-import { featuredProducts } from "@/data";
+import { featuredProducts, pizzas } from "@/data";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Featured = () => {
@@ -28,7 +29,7 @@ const Featured = () => {
               <p className=" text-xs p-2 2xl:p-8">{item.desc}</p>
               <span className="text-xl font-bold">${item.price}</span>
               <button className="bg-red-500 text-white p-2 rounded-md">
-                COMPRAR
+                <Link href={`/product/${item.id}`}>Comprar</Link>
               </button>
             </div>
           </div>

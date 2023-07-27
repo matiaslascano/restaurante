@@ -1,6 +1,4 @@
 import { menu } from "@/data";
-import { Iceberg } from "next/font/google";
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
